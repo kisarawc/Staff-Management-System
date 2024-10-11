@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+      
+         <servlet>
+         	<servlet-name>staffInsert</servlet-name>
+         	<servlet-class>com.staffDemo.StaffLeaveInsert</servlet-class>
+         </servlet>
+         <servlet-mapping>
+         	<servlet-name>staffInsert</servlet-name>
+         	<url-pattern>/leaveInsert</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+         	<servlet-name>updateStaff</servlet-name>
+         	<servlet-class>com.staffDemo.updateStaffServlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+         	<servlet-name>updateStaff</servlet-name>
+         	<url-pattern>/staffUpdate</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+         	<servlet-name>deleteStaff</servlet-name>
+         	<servlet-class>com.staffDemo.deleteStaffServlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+         	<servlet-name>deleteStaff</servlet-name>
+         	<url-pattern>/staffDelete</url-pattern>
+         </servlet-mapping>
+         
+         
+         
+    
+</web-app>
+

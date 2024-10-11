@@ -1,0 +1,32 @@
+@charset "ISO-8859-1";
+
+
+.link-style {
+  background-color: white;
+  color: black;
+  border: 2px solid green;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.link-style:hover, .link-style:active {
+  background-color: green;
+  color: white;
+}
+
+.link {
+  background-color: white;
+  color: black;
+  border: 2px solid rgb(255, 0, 0);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.link:hover, .link:active {
+  background-color:red;
+  color: white;
+}

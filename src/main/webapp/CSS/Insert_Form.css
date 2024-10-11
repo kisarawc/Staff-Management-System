@@ -1,0 +1,39 @@
+@charset "ISO-8859-1";
+.H{
+	text-align: center;
+	padding-top: 3%;
+}
+
+
+form {
+    text-align: center;
+    margin: 20px auto;
+    width: 300px;
+    background-color: #fff;
+    padding: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form input[type="text"],
+form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background-color: #0074d9; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #0056b3; 
+}
